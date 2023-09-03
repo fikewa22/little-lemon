@@ -14,16 +14,16 @@ const App = () => {
     <div data-testid="app-component">
       <Layout>
         <Routes>
-          <Route path={pages.get("home").path} element={<Home />} />
-          <Route path={pages.get("about").path} element={<About />} />
-          <Route path={pages.get("menu").path} element={<Menu />} />
+          <Route path={pages.get("home").path} element={<Home/>} />
+          <Route path={pages.get("about").path} element={<About/>} />
+          <Route path={pages.get("menu").path} element={<Menu/>} />
           <Route
             path={pages.get("reservations").path}
-            element={<Reservations />}
+            element={<Reservations/>}
           />
-          <Route path={pages.get("orders").path} element={<Orders />} />
-          <Route path={pages.get("login").path} element={<Login />} />
-          <Route path="*" element={<Home />} />
+          <Route path={pages.get("orders").path} element={<Orders/>} />
+          <Route path={pages.get("login").path} element={<Login/>} />
+          <Route path="*" element={<Home/>}/>
         </Routes>
       </Layout>
     </div>
