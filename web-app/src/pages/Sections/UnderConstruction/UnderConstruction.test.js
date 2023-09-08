@@ -5,7 +5,7 @@ import UnderConstruction from "./UnderConstruction";
 test("renders UnderConstruction component without errors", () => {
   render(<UnderConstruction />);
 
-  // Verificar que los elementos de la interfaz se rendericen correctamente
+// Verify that interface elements are rendered correctly
   expect(screen.getByTestId("under-construction")).toBeInTheDocument();
   expect(screen.getByText("Under Construction")).toBeInTheDocument();
 });

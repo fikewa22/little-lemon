@@ -10,7 +10,7 @@ test("renders the reservations component", () => {
     </Router>
   );
 
-  // Verificar que el componente se haya renderizado correctamente
+// Verify that the component has been rendered correctly
   const reservationComponent = screen.getByTestId("reservations-component");
   expect(reservationComponent).toBeInTheDocument();
 });
